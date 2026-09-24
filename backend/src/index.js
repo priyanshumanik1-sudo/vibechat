@@ -21,7 +21,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "vibechat-eosin-seven.vercel.app",
+    origin: "https://vibechat-eosin-seven.vercel.app",
     credentials: true,
   })
 );
